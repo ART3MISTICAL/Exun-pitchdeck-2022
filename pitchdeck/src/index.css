@@ -134,7 +134,7 @@ code {
 		left: 0%;
 	}
 
-	.click:checked ~ .menu-btn i:before {
+	.click:checked ~ .menu_btn i:before {
 		content: "\f00d";
 	}
 
@@ -146,8 +146,46 @@ code {
 	.menu_btn {
 		display: inline-block;
 	}
+
+	
 }
 
 .ourgame {
 	padding-top: 100px;
+}
+
+
+.ct {
+	display: flex;
+	margin-top: 60px;
+	color: whitesmoke;
+	font-size: 20px;
+	justify-content: center;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.heading {
+	margin-top: 50px;
+	display: flex;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	font-size: 26px;
+	color: whitesmoke;
+	text-decoration: none;
+	justify-content: center;
+}
+
+.play-btn {
+	padding-top: 40px;
+}
+
+@media (max-width: 1250px) {
+	.ct {
+		padding-left: 20px;
+		padding-right: 20px;
+		width: 80px;
+	}
 }

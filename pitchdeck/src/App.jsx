@@ -2,12 +2,16 @@
 import "./App.css";
 import Navbar from "./ components/Navbar";
 import OurGame from "./ components/ourGame";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
     <div>
-      <Navbar/>
-      <OurGame />
+			<Navbar/>
+      <Routes>
+        {/*<Route path='/' element={<Navbar/>}/>*/}
+        <Route path='/ourGame' element={<OurGame/>}/>
+      </Routes>
     </div>
   );
 }
