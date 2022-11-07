@@ -6,7 +6,7 @@ export default function Navbar() {
 	return(
 		<header className='nav'>
 			<p className='logo'>Logo</p>
-			<input type="checkbox" className='click'/>
+			<input type="checkbox" id='click'/>
 			<label for="click" className='menu_btn'>
 				<i className='fas fa-bars' ></i>
 			</label>
@@ -19,7 +19,7 @@ export default function Navbar() {
 				<li className='navlist'><a className='navlinks' href="/">About</a></li>
 			</ul>
 		
-			<a className='cta' href="/"><button className='btn'>Contact</button></a>
+			<Link className='cta' to="/contact"><button className='btn'>Contact</button></Link>
 		</header>
 	)
 
