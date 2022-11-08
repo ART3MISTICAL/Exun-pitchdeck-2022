@@ -1,4 +1,4 @@
-import Particles from "react-particles";
+import Particles from "react-particles-js";
 import React from "react";
 // import { Engine } from "tsparticles-engine";
 import { loadLinksPreset } from "tsparticles-preset-links";
