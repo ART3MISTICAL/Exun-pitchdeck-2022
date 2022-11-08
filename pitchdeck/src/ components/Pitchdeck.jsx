@@ -1,3 +1,5 @@
+import React from "react";
+
 const Pitchdeck = () => {
   return (
     <div className="pitch-deck s">
