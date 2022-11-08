@@ -26,14 +26,6 @@ function List(props) {
   return filteredData.map((game) => {
     return (
       <table>
-        {/* //   <React.Fragment> */}
-        {/* <div> */}
-        {/* <li className="ct"> */}
-        {/* <img src={tetris}></img> */}
-        {/* <img alt="" style={{ maxHeight: "200px" }} src={game.img}></img> */}
-        {/* </li> */}
-        {/* </div> */}
-
         <thead>
           <tr className="table-heading">
             <th scope="col"> {game.name} </th>
@@ -49,17 +41,6 @@ function List(props) {
             <td data-label="Play">
               <center>
                 <div className="table-ct">{game.description} </div>
-                {/* <form action={game.link} method="post"> */}
-                {/* <a
-                        href={game.link}
-                        type="submit"
-                        value="Play"
-                        style={{ width: "110px", marginTop: "20px" }}
-                        className="btn ct"
-                      >
-                        {`PLAY`}
-                      </a>
-                      </form> */}
                 <a
                   style={{ width: "110px", marginTop: "20px" }}
                   className="btn ct"
