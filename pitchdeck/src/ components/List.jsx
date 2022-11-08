@@ -88,7 +88,7 @@ import Loading from "./Loading";
 
 function List(props) {
   const [games, setGames] = useState([]);
-  const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState();
 
   useEffect(() => {
     async function getGames() {
