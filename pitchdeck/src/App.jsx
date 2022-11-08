@@ -9,6 +9,7 @@ import { Route, Routes } from "react-router-dom";
 import Main from "./ components/Main";
 import Pitchdeck from "./ components/Pitchdeck";
 import React from "react";
+// import bgImg from "./ components/images/bg_img.png";
 
 function App() {
   return (
