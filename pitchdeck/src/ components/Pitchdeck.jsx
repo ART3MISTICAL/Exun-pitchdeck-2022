@@ -68,7 +68,7 @@ const Pitchdeck = () => {
                   className="legend"
                   href="https://www.youtube.com/watch?v=eUxRJvDZuFQ&feature=youtu.be"
                 >
-                  Demo
+                  Click Here For Demo
                 </a>
               </div>
               <div>
