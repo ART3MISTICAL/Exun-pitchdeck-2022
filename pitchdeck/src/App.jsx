@@ -8,6 +8,7 @@ import Contact from "./ components/Contact";
 import { Route, Routes } from "react-router-dom";
 import About from "./ components/About";
 import Pitchdeck from "./ components/Pitchdeck";
+import React from "react";
 
 function App() {
   return (
