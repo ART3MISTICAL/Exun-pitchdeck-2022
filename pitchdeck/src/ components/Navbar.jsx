@@ -7,7 +7,7 @@ export default function Navbar() {
       <p className="logo">Logo</p>
       <input type="checkbox" id="click" />
       <label htmlFor="click" className="menu_btn">
-        <i className="fas fa-bars"></i>
+        <i className="fas fa-bars" />
       </label>
 
       <ul className="nav__links">
