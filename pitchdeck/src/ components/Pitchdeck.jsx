@@ -31,22 +31,46 @@ const Pitchdeck = () => {
               //onClickThumb={onClickThumb}
             >
               <div>
-                <img style={{ maxHeight: 1000, maxWidth: 1000 }} src={img1} />
+                <img
+                  alt=""
+                  style={{ maxHeight: 1000, maxWidth: 1000 }}
+                  src={img1}
+                />
               </div>
               <div>
-                <img style={{ maxHeight: 1000, maxWidth: 1000 }} src={img2} />
+                <img
+                  alt=""
+                  style={{ maxHeight: 1000, maxWidth: 1000 }}
+                  src={img2}
+                />
               </div>
               <div>
-                <img style={{ maxHeight: 1000, maxWidth: 1000 }} src={img3} />
+                <img
+                  alt=""
+                  style={{ maxHeight: 1000, maxWidth: 1000 }}
+                  src={img3}
+                />
               </div>
               <div>
-                <img style={{ maxHeight: 1000, maxWidth: 1000 }} src={img4} />
+                <img
+                  alt=""
+                  style={{ maxHeight: 1000, maxWidth: 1000 }}
+                  src={img4}
+                />
               </div>
               <div>
-                <img style={{ maxHeight: 1000, maxWidth: 1000 }} src={img5} />
+                <img
+                  alt=""
+                  style={{ maxHeight: 1000, maxWidth: 1000 }}
+                  src={img5}
+                />
               </div>
               <div>
-                <img style={{ maxHeight: 1000, maxWidth: 1000 }} src={img6} />
+                <img
+                  alt=""
+                  style={{ maxHeight: 1000, maxWidth: 1000 }}
+                  src={img6}
+                />
               </div>
             </Carousel>
           </center>
