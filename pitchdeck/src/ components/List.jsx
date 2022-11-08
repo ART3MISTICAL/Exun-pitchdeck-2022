@@ -3,7 +3,7 @@ import axios from "axios";
 import "./List.css";
 
 function List(props) {
-  const [games, setGames] = useState([]);
+  const [games, setGames] = useState(["ab", "bc"]);
 
   useEffect(() => {
     async function getGames() {
@@ -32,7 +32,6 @@ function List(props) {
             <th scope="col">Description</th>
           </tr>
         </thead>
-
         <tbody>
           <tr>
             <td data-label="Images">
