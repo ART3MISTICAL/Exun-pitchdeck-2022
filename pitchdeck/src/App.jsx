@@ -6,6 +6,8 @@ import OurGame from "./ components/ourGame";
 import Games from "./ components/Games";
 import Contact from "./ components/Contact";
 import { Route, Routes } from "react-router-dom";
+import About from "./ components/About";
+import Pitchdeck from "./ components/Pitchdeck";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
         <Route path="/ourGame" element={<OurGame />} />
         <Route path="/Discover_games" element={<Games />} />
         <Route path="/Contact" element={<Contact />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/Pitchdeck" element={<Pitchdeck />} />
       </Routes>
     </div>
   );
