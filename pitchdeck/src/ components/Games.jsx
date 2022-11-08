@@ -91,7 +91,7 @@ const Games = () => {
                 </Link> */}
                 <a
                   style={{ width: "600px" }}
-                  className="btn button button_outlined"
+                  className="btn"
                   href={game.link}
                   target="_blank"
                   rel="noopener noreferrer"

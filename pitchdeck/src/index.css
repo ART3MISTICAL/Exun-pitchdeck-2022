@@ -67,7 +67,7 @@ code {
 
 .nav__links .navlist .navlinks:hover,
 .active {
-  color: #0088a9;
+	color: #6e65f4;
 }
 
 .btn {
@@ -253,7 +253,7 @@ label {
   padding-top: 100px;
 }
 
-.button {
+/*.button {
   position: relative;
   background-color: #4caf50;
   border: none;
@@ -286,4 +286,12 @@ label {
   margin: 0;
   opacity: 1;
   transition: 0s;
+}*/
+
+.navlinks:hover {
+	color: #6e65f4;
+}
+
+.navlinks:focus-within {
+	color: #6e65f4;
 }
