@@ -13,7 +13,7 @@ import React from "react";
 function App() {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <Routes>
         <Route path="/" element={<About />} />
         <Route path="/ourGame" element={<OurGame />} />
