@@ -6,26 +6,29 @@ import OurGame from "./ components/ourGame";
 import Games from "./ components/Games";
 import Contact from "./ components/Contact";
 import { Route, Routes } from "react-router-dom";
-import About from "./ components/About";
+import Main from "./ components/Main";
 import Pitchdeck from "./ components/Pitchdeck";
 import React from "react";
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<About />} />
-        <Route path="/ourGame" element={<OurGame />} />
-        <Route path="/Discover_games" element={<Games />} />
-        <Route path="/Contact" element={<Contact />} />
-        <Route path="/About" element={<About />} />
-        <Route path="/Pitchdeck" element={<Pitchdeck />} />
-      </Routes>
+    <>
+      <div className="allButFooter">
+        <Navbar />
+        {/* <Games /> */}
+        <Routes>
+          <Route path="/" element={<Main />} />
+          <Route path="/ourGame" element={<OurGame />} />
+          <Route path="/Discover_games" element={<Games />} />
+          <Route path="/Contact" element={<Contact />} />
+          {/* <Route path="/About" element={<Main />} /> */}
+          <Route path="/Pitchdeck" element={<Pitchdeck />} />
+        </Routes>
+      </div>
       <footer>
         <p>Copyright &copy; 2022 All Rights Reserved.</p>
       </footer>
-    </div>
+    </>
   );
 }
 

@@ -8,6 +8,16 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+* {
+  position: relative;
+}
+/*
+.particlesHeader {
+  font-size: 4em;
+  margin-top: 350px;
+  text-align: center;
+  color: #66fc66;
+}*/
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
@@ -19,12 +29,16 @@ code {
   margin: 0;
   padding: 0;
   background-color: #24252a;
+  /*background-blend-mode: overlay;*/
+  background: rgba(0, 136, 169, 0);
+  position: relative;
 }
 
 .navlist,
 .navlinks,
 .btn,
 .logo {
+  position: relative;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -46,6 +60,7 @@ code {
   padding-left: 10%;
   padding-right: 10%;
   width: 100vw;
+  z-index: 1;
 }
 
 .nav__links {
@@ -267,6 +282,7 @@ label {
 }
 
 table {
+  background: rgba(0, 136, 169, 0);
   border-collapse: collapse;
   margin: 0;
   margin-top: 50px;
@@ -276,7 +292,7 @@ table {
 }
 
 table tr {
-  background-color: #f8f8f8;
+  background: rgba(0, 136, 169, 0);
   padding: 0.35em;
   color: whitesmoke;
 }
@@ -299,6 +315,8 @@ table th {
 
 @media screen and (max-width: 600px) {
   table {
+    z-index: "10";
+    z-index: 10;
     border: 0;
   }
 
@@ -308,9 +326,10 @@ table th {
 
   table thead {
     border: none;
+
     clip: rect(0 0 0 0);
     height: 1px;
-    margin: -1px;
+    /*margin: -1px;*/
     overflow: hidden;
     padding: 0;
     position: absolute;
@@ -318,13 +337,15 @@ table th {
   }
 
   table tr {
-    border-bottom: 3px solid #ddd;
+    /*border-bottom: 3px solid #ddd;*/
+
     display: block;
-    margin-bottom: 0.625em;
+    /*margin-bottom: 0.625em;*/
   }
 
   table td {
-    border-bottom: 1px solid #ddd;
+    /*border-bottom: 1px solid #ddd;*/
+
     display: block;
     font-size: 0.8em;
     text-align: right;
@@ -332,6 +353,7 @@ table th {
 
   table td::before {
     content: attr(data-label);
+
     float: left;
     font-weight: bold;
     text-transform: uppercase;
@@ -344,6 +366,7 @@ table th {
 
 .table-ct {
   display: flex;
+
   color: whitesmoke;
   font-size: 20px;
   justify-content: center;
@@ -380,11 +403,78 @@ table th {
 }
 
 footer {
-  background: #1a1e25;
+  background: rgba(0, 136, 169, 0);
   color: #868c96;
+  /*position: fix;*/
 }
 
 footer p {
   padding: 40px 0;
   text-align: center;
+}
+
+.created {
+  display: block;
+  width: fit-content;
+}
+.main-btn {
+  color: #4570f3;
+}
+
+.main-btn:hover {
+  color: #6c63e8;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  z-index: 1;
+  /*position: fixed;*/
+
+  /*position: 0;*/
+  /*bottom: 0;*/
+
+  /*margin-left: auto;
+  margin-right: auto;*/
+  /*clear: both;*/
+  /*position: relative;*/
+  /*height: 200px;*/
+  /*margin-top: -200px;*/
+}
+
+.allButFooter {
+  min-height: calc(100vh - 80px);
+  z-index: 2;
+}
+
+/*.particles canvas {
+  /*position: absolute;*/
+/*position: inherit;*/
+/*width: 100%;
+  height: 100%;*/
+/*z-index: 1;*/
+
+/*.particles {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.particles-js {
+  top: 0;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  z-index: 1;
+}*/
+/*
+.appp {
+  z-index: 2;
+}*/
+
+.load {
+  position: absolute;
+  z-index: 1;
 }

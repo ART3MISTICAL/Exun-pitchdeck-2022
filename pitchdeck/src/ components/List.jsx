@@ -84,15 +84,18 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./List.css";
+import Loading from "./Loading";
 
 function List(props) {
   const [games, setGames] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     async function getGames() {
       const allGames = await axios.get(
         "https://retro-games-api.devansharora.repl.co/"
       );
+      setIsLoading(false);
       setGames(allGames.data);
     }
     getGames();
@@ -107,7 +110,9 @@ function List(props) {
     }
   });
   return filteredData.map((game) => {
-    return (
+    return isLoading ? (
+      <Loading />
+    ) : (
       <table>
         <thead>
           <tr className="table-heading">
@@ -118,8 +123,16 @@ function List(props) {
 
         <tbody>
           <tr>
-            <td data-label="Images">
-              {<img alt="" style={{ maxHeight: "200px" }} src={game.img}></img>}
+            <td data-label={`${game.name}`}>
+              {
+                <center>
+                  <img
+                    alt=""
+                    style={{ maxHeight: "200px", maxWidth: "300px" }}
+                    src={game.img}
+                  />
+                </center>
+              }
             </td>
             <td data-label="Play">
               <center>

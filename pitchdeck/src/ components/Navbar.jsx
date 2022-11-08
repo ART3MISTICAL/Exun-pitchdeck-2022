@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function Navbar() {
   return (
     <header className="nav">
-      <p className="logo">Logo</p>
+      <p className="logo">ArcadeVerse</p>
       <input type="checkbox" id="click" />
       <label htmlFor="click" className="menu_btn">
         <i className="fas fa-bars" />
@@ -13,7 +13,7 @@ export default function Navbar() {
       <ul className="nav__links">
         <li className="navlist">
           <Link className="navlinks" to="/">
-            Main
+            Home
           </Link>
         </li>
         <li className="navlist">
@@ -29,11 +29,6 @@ export default function Navbar() {
         <li className="navlist">
           <Link className="navlinks" to="/Pitchdeck">
             Pitchdeck
-          </Link>
-        </li>
-        <li className="navlist">
-          <Link className="navlinks" to="/About">
-            About
           </Link>
         </li>
       </ul>
