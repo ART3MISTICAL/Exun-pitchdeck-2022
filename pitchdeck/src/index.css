@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+/**/
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -11,8 +15,6 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 * {
   box-sizing: border-box;
@@ -250,7 +252,7 @@ label {
   opacity: 1;
   transition: 0s;
 }
-*/ .navlinks:hover {
+.navlinks:hover {
   color: #6e65f4;
 }
 
