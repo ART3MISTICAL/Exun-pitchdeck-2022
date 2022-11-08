@@ -373,3 +373,34 @@ table th {
     width: 250px;
   }
 }
+
+.search-bar {
+  display: block;
+  width: 100%;
+  margin-top: 30px;
+  padding: 15px;
+  appearance: none;
+  background: none;
+
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 17px 17px;
+
+  transition: 0.4s ease;
+}
+
+.search-bar:focus {
+  background-color: rgba(255, 255, 255, 0.75);
+  box-sizing: border-box;
+  /*outline: 1px solid #6e65f4;*/
+  border: 3px solid #6c63e8;
+}
+
+footer {
+  background: #1a1e25;
+  color: #868c96;
+}
+
+footer p {
+  padding: 40px 0;
+  text-align: center;
+}

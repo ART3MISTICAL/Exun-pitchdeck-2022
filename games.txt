@@ -1,0 +1,85 @@
+db = [
+ {
+  'name':
+  "DOOM(1993)",
+  'link':
+  "https://www.retrogames.cz/play_414-DOS.php",
+  'img':
+  'https://cdn.cloudflare.steamstatic.com/steam/apps/2280/header.jpg?t=1663861909',
+  'description':
+  "Doom is a 1993 science fiction horror-themed first-person shooter (FPS) video game by id Software. It is considered one of the most significant and influential titles in the video game industry, for having ushered in the popularity of the first-person shooter genre.",
+ },
+{
+  'name':
+  "Doom II: Hell on Earth",
+  'link':
+  "https://www.retrogames.cz/play_462-DOS.php",
+  'img':
+  'https://images.gog-statics.com/069e485b02c7fdebd492b0c59f27b267c3e65ea8f208af4ca11d904e7223f3c0.jpg',
+  'description':
+  "Doom II: Hell on Earth is an award winning first-person shooter video game and the second title of id Software's Doom franchise.",
+ },
+{
+  'name':
+  "Donkey Kong",
+  'link':
+  "https://www.retrogames.cz/play_1067-GameBoy.php",
+  'img':
+  'https://images.crazygames.com/games/donkey-kong-returns/cover-1630234361535.png?auto=format,compress&q=45&cs=strip&ch=DPR&w=1200&h=630&fit=crop',
+  'description':
+  "Donkey Kong is a platform game developed in 1994 by Nintendo for the Game Boy handheld video game system, which also contains puzzle elements. Donkey Kong is loosely based on the 1981 arcade game of the same name and its sequel Donkey Kong Jr.",
+ },
+ 'name':
+  "Galaga",
+  'link':
+  "https://www.retrogames.cz/play_018-NES.php",
+  'img':
+  'https://cdn.cloudflare.steamstatic.com/steam/apps/403430/ss_840d4046749a70d0373c085d100e967ecea2753d.1920x1080.jpg?t=1580375648',
+  'description':
+  "Galaga is a fixed shooter arcade game developed and published by Namco in Japan and published by Midway in North America in 1981. It is the sequel to Galaxian, released in 1979.",
+ },
+
+ {
+  'name':
+  "Road Rash",
+  'link':
+  "https://www.retrogames.cz/play_254-Genesis.php",
+  'img':
+  'https://segaretro.org/images/d/d5/RoadRash_MDTitleScreen.png',
+  'description':
+  "Road Rash is the name of a motorcycle-racing video game series by Electronic Arts in which the player participates in violent, illegal street races.",
+ },
+
+ {
+  'name':
+  "Sid Meier’s Civilization",
+  'link':
+  "https://www.retrogames.cz/play_412-DOS.php",
+  'img':
+  'https://external-preview.redd.it/hEj9-lCr8apZbbWRYqa4XGlo4EYzdy_cUH4swiScCrQ.jpg?width=640&crop=smart&auto=webp&s=f808404b03743c7696abe22f9b10c2f9aef9d202',
+  'description':
+  "Sid Meier's Civilization is a turn-based strategy '4X'-type strategy video game created by Sid Meier and Bruce Shelley for MicroProse in 1991. The game's objective is to 'Build an empire to stand the test of time",
+ },
+
+ {
+  'name':
+  "Grand Prix Circuit",
+  'link':
+  "https://www.retrogames.cz/play_413-DOS.php",
+  'img':
+  'https://www.myabandonware.com/media/screenshots/g/grand-prix-circuit-ga/grand-prix-circuit_1.png',
+  'description':
+  "Grand Prix Circuit is a racing video game developed by Distinctive Software and published by Accolade for MS-DOS com­pa­tib­le operating systems in 1988. ",
+ },
+ {
+  'name':
+  "Mortal Kombat II",
+  'link':
+  "https://www.retrogames.cz/play_310-Genesis.php",
+  'img':
+  'https://static.wikia.nocookie.net/mkwikia/images/6/6e/Mk2-1.png/revision/latest?cb=20060606003500',
+  'description':
+  "Mortal Kombat II (commonly abbreviated as MKII) is a competitive fighting game originally produced by Midway Games for the arcades in 1993. ",  
+  }
+]
+

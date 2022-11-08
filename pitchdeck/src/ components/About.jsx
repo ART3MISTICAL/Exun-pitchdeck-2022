@@ -9,8 +9,8 @@ const About = () => {
         <h1 className="ct">Aryan Saraf</h1>
       </div>
       <p className="ct">
-        Students of DPS FBD developed this website in less than 3 days as a
-        hackathon project
+        Students of Delhi Public School, Faridabad developed this website in
+        less than 3 days as a hackathon project.
       </p>
     </div>
   );

@@ -21,6 +21,9 @@ function App() {
         <Route path="/About" element={<About />} />
         <Route path="/Pitchdeck" element={<Pitchdeck />} />
       </Routes>
+      <footer>
+        <p>Copyright &copy; 2022 All Rights Reserved.</p>
+      </footer>
     </div>
   );
 }
