@@ -5,7 +5,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /*padding-top: 100px;*/
 }
 
 code {
@@ -188,14 +187,6 @@ code {
     display: inline-block;
   }
 }
-/*
-h2 {
-	margin: 0;
-	color: #5959FF;
-	font-size: 2.5em;
-	font-weight: 600;
-	margin-top: 5rem;
-      }*/
 
 .forms {
   width: 50%;
@@ -276,7 +267,6 @@ label {
 }
 
 table {
-  /*border: 1px solid #ccc;*/
   border-collapse: collapse;
   margin: 0;
   margin-top: 50px;
@@ -287,7 +277,6 @@ table {
 
 table tr {
   background-color: #f8f8f8;
-  /*border: 1px solid #ddd;*/
   padding: 0.35em;
   color: whitesmoke;
 }
@@ -342,10 +331,6 @@ table th {
   }
 
   table td::before {
-    /*
-    * aria-label has no advantage, it won't be read inside a table
-    content: attr(aria-label);
-    */
     content: attr(data-label);
     float: left;
     font-weight: bold;
@@ -391,7 +376,6 @@ table th {
 .search-bar:focus {
   background-color: rgba(255, 255, 255, 0.75);
   box-sizing: border-box;
-  /*outline: 1px solid #6e65f4;*/
   border: 3px solid #6c63e8;
 }
 
