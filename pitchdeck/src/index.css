@@ -1,7 +1,7 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -9,187 +9,184 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 * {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-	background-color: #24252A;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #24252a;
 }
 
-.navlist, .navlinks, .btn, .logo {
-	font-family: "Montserrat", sans-serif;
-	font-weight: 500;
-	font-size: 16px;
-	color: whitesmoke;
-	text-decoration: none;
+.navlist,
+.navlinks,
+.btn,
+.logo {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: whitesmoke;
+  text-decoration: none;
 }
 
 #click {
-	display: none;
+  display: none;
 }
 
 .nav {
-	position: fixed;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding-top: 30px;
-	padding-bottom: 30px;
-	padding-left: 10%;
-	padding-right: 10%;
-	width: 100vw;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 10%;
+  padding-right: 10%;
+  width: 100vw;
 }
 
 .nav__links {
-	list-style: none;
+  list-style: none;
 }
 
 .nav__links .navlist {
-	display: inline-block;
-	padding-top: 0px;
-	padding-bottom: 0px;
-	padding-left: 20px;
-	padding-right: 20px;
+  display: inline-block;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .nav__links .navlist .navlinks {
-	transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 
-.nav__links .navlist .navlinks:hover, .active {
-	color: #0088A9;
+.nav__links .navlist .navlinks:hover,
+.active {
+  color: #0088a9;
 }
 
 .btn {
-	padding-top: 9px;
-	padding-bottom: 9px;
-	padding-left: 25px;
-	padding-right: 25px;
-	background-color: rgba(0, 136, 169, 1);
-	border: none;
-	border-radius: 50px;
-	cursor: pointer;
-	transition: all 0.3s ease 0s;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
 }
 
 .btn:hover {
-	background-color: rgba(0, 136, 169, 0.8);
+  background-color: rgba(0, 136, 169, 0.8);
 }
 
 .logo {
-	font-size: 18px;
-	font-weight: 600;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .menu_btn {
-	color: white;
-	display: none;
-	cursor: pointer;
-	padding-left: 10px;
+  color: white;
+  display: none;
+  cursor: pointer;
+  padding-left: 10px;
 }
-
-
 
 .ourgame {
-	padding-top: 100px;
+  padding-top: 100px;
 }
 
-
 .ct {
-	display: flex;
-	margin-top: 60px;
-	color: whitesmoke;
-	font-size: 20px;
-	justify-content: center;
-	width: 900px;
-	margin-left: auto;
-	margin-right: auto;
-	
+  display: flex;
+  margin-top: 60px;
+  color: whitesmoke;
+  font-size: 20px;
+  justify-content: center;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .heading {
-	margin-top: 50px;
-	display: flex;
-	font-family: "Montserrat", sans-serif;
-	font-weight: 600;
-	font-size: 26px;
-	color: whitesmoke;
-	text-decoration: none;
-	justify-content: center;
+  margin-top: 50px;
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 26px;
+  color: whitesmoke;
+  text-decoration: none;
+  justify-content: center;
 }
 
 .play-btn {
-	padding-top: 40px;
+  padding-top: 40px;
 }
 
 @media (max-width: 1250px) {
-	.ct {
-		padding-left: 20px;
-		padding-right: 20px;
-		width: 80px;
-	}
+  .ct {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 80px;
+  }
 }
 
 @media (max-width: 1250px) {
-	.nav__links {
-		position: fixed;
-		top: 80px;
-		left: -100%;
-		background-color: #24252A;
-		height: 100vh;
-		width: 100%;
-		display: block;
-		text-align: center;
-		transition: all 0.3s ease;
-	}
+  .nav__links {
+    position: fixed;
+    top: 80px;
+    left: -100%;
+    background-color: #24252a;
+    height: 100vh;
+    width: 100%;
+    display: block;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
 
-	.cta {
-		display: inline-flex;
-		position: fixed;
-		bottom: 80px;
-		width: 100vw;
-		left: -100;
-		justify-content: center;
-		transition: all 0.3s ease;
-	}
+  .cta {
+    display: inline-flex;
+    position: fixed;
+    bottom: 80px;
+    width: 100vw;
+    left: -100;
+    justify-content: center;
+    transition: all 0.3s ease;
+  }
 
+  #click:not(:checked) ~ .nav__links {
+    left: -100%;
+  }
 
-	#click:not(:checked) ~ .nav__links{
-		left: -100%;
-	}
-	
-	#click:not(:checked) ~ .cta{
-		left: -100%;
-	}
+  #click:not(:checked) ~ .cta {
+    left: -100%;
+  }
 
-	#click:checked ~ .nav__links {
-		left: 0%;
-	}
+  #click:checked ~ .nav__links {
+    left: 0%;
+  }
 
-	#click:checked ~ .cta{
-		left: 0%;
-	}
+  #click:checked ~ .cta {
+    left: 0%;
+  }
 
-	#click:checked ~ .menu_btn i:before {
-		content: "\f00d";
-	}
+  #click:checked ~ .menu_btn i:before {
+    content: "\f00d";
+  }
 
-	.nav__links .navlist {
-		display: block;
-		margin-top: 40px;
-	}
+  .nav__links .navlist {
+    display: block;
+    margin-top: 40px;
+  }
 
-	.menu_btn {
-		display: inline-block;
-	}
-
-	
+  .menu_btn {
+    display: inline-block;
+  }
 }
 /*
 h2 {
@@ -199,53 +196,94 @@ h2 {
 	font-weight: 600;
 	margin-top: 5rem;
       }*/
-      
-      .forms{
-	width: 50%;
-      }
-      
-      .forms label{
-	font-size: 1.2rem;
-      }
-      
-      .input, textarea, .btn {
-	width: 100%;
-	padding: 0.5em;
-	border: none;
-	font-size: 1.2rem;
-	color: white;
-      }
-      input[type="text"], input[type="email"], textarea {
-	margin: 0 0 1em;
-	border: 1px solid #ccc;
-	outline: none;
-      }
-      
-      textarea {
-	height: 6em;
-      }
-      input[type="submit"], .btn {
-	background: #4570F3;
-	color: #fff;
-	cursor: pointer;
-      }
-      input[type="submit"]:hover, .btn:hover {
-	background: #6E65F4;
-      }
+
+.forms {
+  width: 50%;
+}
+
+.forms label {
+  font-size: 1.2rem;
+}
+
+.input,
+textarea,
+.btn {
+  width: 100%;
+  padding: 0.5em;
+  border: none;
+  font-size: 1.2rem;
+  color: white;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  margin: 0 0 1em;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+textarea {
+  height: 6em;
+}
+input[type="submit"],
+.btn {
+  background: #4570f3;
+  color: #fff;
+  cursor: pointer;
+}
+input[type="submit"]:hover,
+.btn:hover {
+  background: #6e65f4;
+}
 label {
-	color: white;
+  color: white;
 }
 
 .contact {
-	display: flex;
-	justify-content: center;
-	padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
 }
 
 .ct-form {
-	padding-top: 80px;
+  padding-top: 80px;
 }
 
 .game-area {
-	padding-top: 100px;
+  padding-top: 100px;
+}
+
+.button {
+  position: relative;
+  background-color: #4caf50;
+  border: none;
+  font-size: 28px;
+  color: #ffffff;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.button:after {
+  content: "";
+  background: #f1f1f1;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s;
+}
+
+.button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s;
 }

@@ -2,20 +2,20 @@
 import "./App.css";
 import Navbar from "./ components/Navbar";
 import OurGame from "./ components/ourGame";
-import Marketplace from "./ components/Marketplace";
-import  Games from'./ components/Games'
+// import Marketplace from "./ components/Marketplace";
+import Games from "./ components/Games";
 import Contact from "./ components/Contact";
 import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
     <div>
-			<Navbar/>
+      <Navbar />
       <Routes>
         {/*<Route path='/' element={<Navbar/>}/>*/}
-        <Route path='/ourGame' element={<OurGame/>}/>
-        <Route path='/Market' element={<Games/>}/>
-        <Route path='/Contact' element={<Contact/>}/>
+        <Route path="/ourGame" element={<OurGame />} />
+        <Route path="/Discover_games" element={<Games />} />
+        <Route path="/Contact" element={<Contact />} />
       </Routes>
     </div>
   );
